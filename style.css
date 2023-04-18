@@ -80,8 +80,6 @@ button a{
 
 
 
-
-
   .row {
     display: flex;
     align-items: center;
@@ -133,20 +131,20 @@ button a{
   }
   
   .nav-toggle{ 
-  display:none;
-  }
-  
-  .nav-toggle-label{ 
-  position: absolute; 
-  top:0; 
-  left:0; 
-  margin-left: 1em; 
-  height: 100%;
-  display: flex; 
-  align-items: center;
-  }
-  
-  .nav-toggle-label span{ 
+    display: none
+    }
+    
+    .nav-toggle-label{ 
+    position: absolute; 
+    top:0; 
+    left:0; 
+    margin-left: 1em; 
+    height: 100%;
+    display: flex; 
+    align-items: center;
+    }
+    
+    .nav-toggle-label span{ 
     color:white;
     font-size: 1.5em;
     }
@@ -216,6 +214,11 @@ height: 100vh;
   color:#FFF2F2;
   
   }
+
+  .hero-text-mobile { 
+    display: none;
+    
+    }
 
   /*campaign*/
 
@@ -356,6 +359,19 @@ footer .media li{
     gap: 1em;
   }
 
+  .hero-text { 
+    display:none;
+    
+    }
+  
+    .hero-text-mobile { 
+      display:block;
+      line-height: 6em;
+      text-align: center; 
+      color:#FFF2F2;
+      
+      }
+
   .row-posters {
     display: block; 
     gap: 1em;
@@ -365,6 +381,7 @@ footer .media li{
   display: none;
 }
   .our-campaign-mobile{ 
+    display:block;
     text-align: center;
     
     padding-bottom: 1.2em;
@@ -376,7 +393,8 @@ footer .media li{
     display: none;
   }
   
-  .change{
+  .reminder-mobile{
+    display:block;
     padding-bottom: 1.2em;
   }
 
