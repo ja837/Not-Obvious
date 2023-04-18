@@ -8,6 +8,7 @@
   font-size: 16px;
   margin:0; 
   padding:0;  
+  line-height: 160%;
   }
   
   h1{
@@ -28,6 +29,11 @@
       font-size:32px;
       font-weight: 700;
       text-align: center;
+      line-height: 30px;
+  }
+
+  .logo{
+    color: #FFF2F2;
   }
 
   .site-text{
@@ -38,7 +44,7 @@
 
 .card{
   background-color: white;
-  padding: 45px;
+  padding: 30px;
 }
 
 .card_2{
@@ -72,12 +78,9 @@ button a{
   color:black;
 }
 
-  .image{
-    text-align: right;
-  }
-  .image_2{
-    text-align: left;
-  }
+
+
+
 
   .row {
     display: flex;
@@ -87,13 +90,8 @@ button a{
     gap:1em;
   }
 
-  .row-2 {
-    display: flex;
-    flex-wrap: wrap;
-   
-  }
-  .row-reverse {
-    flex-direction: row-reverse;
+  .row-posters {
+    padding: 0 3em;
   }
 
   
@@ -112,7 +110,6 @@ button a{
   }
 
   .column img{ 
-    width:100%;
     height: 100%;
     object-fit: cover;
   }
@@ -136,7 +133,7 @@ button a{
   }
   
   .nav-toggle{ 
-  display: none
+  display:none;
   }
   
   .nav-toggle-label{ 
@@ -150,9 +147,9 @@ button a{
   }
   
   .nav-toggle-label span{ 
-  color:white;
-  font-size: 1.5em;
-  }
+    color:white;
+    font-size: 1.5em;
+    }
   
   nav{ 
   position: absolute; 
@@ -236,11 +233,16 @@ padding-bottom: 1.2em;
     
   }
 
+  .our-campaign-mobile{ 
+    display:none;
+  }
+
   .poster{
     display: block;
     margin-left: auto;
   margin-right: auto;
-  width: 70%;
+  width: 100%;
+
   }
   
   /*fault*/
@@ -268,8 +270,47 @@ padding-bottom: 1.2em;
 
 /*reminder*/ 
 .reminder{
-  padding: 50px 70px;
+  padding: 50px 300px;
 }
+
+.reminder-mobile{
+  display:none;
+}
+
+/*footer*/
+
+footer{
+  background-color: #5244F2;
+  text-align: center;
+  padding:25px 0;
+}
+
+footer .media li{ 
+  list-style: none;
+  display:inline;
+  
+  }
+
+  footer .media li a { 
+    padding: 0 10px;
+  }
+
+  .twitter{ 
+    width:3%;
+  }
+  .facebook{ 
+    width:2.5%;
+  }
+  .instagram{ 
+    width:2.5%;
+  }
+  .youtube{ 
+    width:3%;
+  }
+
+  .copyright{
+    color:#FFF2F2
+  }
 
   /*media query for desk top*/
   
@@ -305,5 +346,40 @@ padding-bottom: 1.2em;
       position: relative;
     }
     
+  }
+
+  @media (max-width: 600px) { 
+  
+    body{ 
+  display: block; 
+   grid-template-columns: repeat(1, 1fr);
+    gap: 1em;
+  }
+
+  .row-posters {
+    display: block; 
+    gap: 1em;
+  }
+
+.our-campaign{
+  display: none;
+}
+  .our-campaign-mobile{ 
+    text-align: center;
+    
+    padding-bottom: 1.2em;
+    
+  }
+
+ 
+  .reminder{
+    display: none;
+  }
+  
+  .change{
+    padding-bottom: 1.2em;
+  }
+
+  
   }
       
