@@ -92,6 +92,10 @@ button a{
     padding: 0 3em;
   }
 
+  .row-posters-mobile {
+    display:none;
+  }
+
   
   
   .column {
@@ -111,6 +115,7 @@ button a{
     height: 100%;
     object-fit: cover;
   }
+
   
   /*nav*/
 
@@ -253,6 +258,10 @@ padding-bottom: 1.2em;
     padding: 50px 70px;
   }
 
+  .fault-mobile{
+    display:none;
+  }
+
   /*narcissism*/
   .narcissism{
   background-color: #8EA7E9;
@@ -260,15 +269,29 @@ padding-bottom: 1.2em;
 
   }
 
+  .narcissism-mobile{
+    display:none;
+  }
+
   /*narcissistic abuse*/
   .narcissistic-abuse{
     padding: 50px 70px;
   }
 
+  .narcissistic-abuse-mobile{
+    display:none;
+    
+  }
+ 
+
   /*taking steps*/
   .taking-steps{
     padding: 50px 100px;
     background-color: #8EA7E9;
+  }
+
+  .taking-steps-mobile{
+   display:none;
   }
 
 /*reminder*/ 
@@ -352,11 +375,21 @@ footer .media li{
   }
 
   @media (max-width: 600px) { 
+
+    .card{
+      display:none;
+    }
+      
+    .card-mobile{
+      background-color: white;
+      padding: 30px;
+      
+    }
   
     body{ 
   display: block; 
    grid-template-columns: repeat(1, 1fr);
-    gap: 1em;
+    
   }
 
   .hero-text { 
@@ -372,9 +405,13 @@ footer .media li{
       
       }
 
+
+      
   .row-posters {
     display: block; 
-    gap: 1em;
+    
+    
+    
   }
 
 .our-campaign{
@@ -383,21 +420,76 @@ footer .media li{
   .our-campaign-mobile{ 
     display:block;
     text-align: center;
-    
-    padding-bottom: 1.2em;
+    display:block;
+    padding: 1.2em 20px;
     
   }
 
+  .fault{
+    display:none
+  }
+
+  .fault-mobile{
+    display:block;
+    padding: 1.2em 20px;
+    
+  }
+
+  .narcissism{
+    display:none;
+  
+    }
+  
+    .narcissism-mobile{
+      background-color: #8EA7E9;
+      display:block;
+      padding: 1.2em 20px;
+    }
+  
+
+  .narcissistic-abuse{
+    display:none;
+  }
+   
+   .narcissistic-abuse-mobile{
+    display:block;
+    padding: 1.2em 20px;
+    
+  }
+
+  .taking-steps{
+    display:none;
+    
+  }
+
+  .taking-steps-mobile{
+   display:block;
+   background-color: #8EA7E9;
+   padding: 1.2em 20px;
+  }
  
   .reminder{
     display: none;
+    padding: 0 20px;
   }
   
   .reminder-mobile{
     display:block;
-    padding-bottom: 1.2em;
+    padding: 1.2em 20px;
   }
 
+  .twitter{ 
+    width:6%;
+  }
+  .facebook{ 
+    width:5%;
+  }
+  .instagram{ 
+    width:5%;
+  }
+  .youtube{ 
+    width:6%;
+  }
   
   }
       
