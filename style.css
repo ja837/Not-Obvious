@@ -269,16 +269,15 @@ padding-bottom: 1.2em;
 
   }
 
-  .narcissism-mobile{
+  .narcissist-types-mobile{
     display:none;
   }
-
   /*narcissistic abuse*/
   .narcissistic-abuse{
     padding: 50px 70px;
   }
 
-  .narcissistic-abuse-mobile{
+  .articles-mobile{
     display:none;
     
   }
@@ -376,15 +375,9 @@ footer .media li{
 
   @media (max-width: 600px) { 
 
-    .card{
-      display:none;
-    }
+    
       
-    .card-mobile{
-      background-color: white;
-      padding: 30px;
-      
-    }
+  
   
     body{ 
   display: block; 
@@ -410,14 +403,15 @@ footer .media li{
   .row-posters {
     display: block; 
     
-    
-    
   }
 
-.our-campaign{
-  display: none;
-}
-  .our-campaign-mobile{ 
+  .row-reverse {
+    flex-direction: row-reverse;
+  }
+
+
+
+  .our-campaign{ 
     display:block;
     text-align: center;
     display:block;
@@ -431,51 +425,54 @@ footer .media li{
 
   .fault-mobile{
     display:block;
-    padding: 1.2em 20px;
+    padding: 1.2em 10px;
     
   }
 
-  .narcissism{
-    display:none;
   
-    }
   
-    .narcissism-mobile{
+    .narcissism{
       background-color: #8EA7E9;
       display:block;
-      padding: 1.2em 20px;
+      padding: 1.2em 10px;
+    }
+.narcissist-types{
+  display:none;
+}
+
+    .narcissist-types-mobile{
+      display:block;
+
     }
   
 
-  .narcissistic-abuse{
-    display:none;
-  }
+  
    
-   .narcissistic-abuse-mobile{
+   .narcissistic-abuse{
     display:block;
-    padding: 1.2em 20px;
+    padding: 1.2em 10px;
     
   }
+
+  .articles{
+    display:none;
+  }
+
+.articles-mobile{
+  display:block;
+}
 
   .taking-steps{
-    display:none;
-    
-  }
-
-  .taking-steps-mobile{
    display:block;
    background-color: #8EA7E9;
-   padding: 1.2em 20px;
+   padding: 1.2em 10px;
   }
  
-  .reminder{
-    display: none;
-    padding: 0 20px;
-  }
   
-  .reminder-mobile{
+  
+  .reminder{
     display:block;
-    padding: 1.2em 20px;
+    padding: 1.2em 10px;
   }
 
   .twitter{ 
