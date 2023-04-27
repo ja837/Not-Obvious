@@ -45,12 +45,9 @@
 .card{
   background-color: white;
   padding: 30px;
+  
 }
 
-.card_2{
-  background-color: white;
-  padding: 30px;
-}
 
 .site-button{
   text-align: center;
@@ -256,6 +253,9 @@ padding-bottom: 1.2em;
   /*fault*/
   .fault{
     padding: 50px 70px;
+    background-image: url(/images/background\ 1.png);
+    background-repeat: no-repeat;
+    background-position: center;
   }
 
   .fault-mobile{
@@ -275,6 +275,9 @@ padding-bottom: 1.2em;
   /*narcissistic abuse*/
   .narcissistic-abuse{
     padding: 50px 70px;
+    background-image: url(/images/bacground\ 2.png);
+    background-repeat: no-repeat;
+    background-position: center right;
   }
 
   .articles-mobile{
@@ -296,6 +299,9 @@ padding-bottom: 1.2em;
 /*reminder*/ 
 .reminder{
   padding: 50px 300px;
+  background-image: url(/images/background\ 3.png);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .reminder-mobile{
@@ -425,7 +431,9 @@ footer .media li{
 
   .fault-mobile{
     display:block;
-    padding: 1.2em 10px;
+    padding: 1.2em 20px;
+    background-image: url(/images/background\ 1.png);
+    background-repeat: no-repeat;
     
   }
 
@@ -434,7 +442,7 @@ footer .media li{
     .narcissism{
       background-color: #8EA7E9;
       display:block;
-      padding: 1.2em 10px;
+      padding: 1.2em 20px;
     }
 .narcissist-types{
   display:none;
@@ -450,7 +458,7 @@ footer .media li{
    
    .narcissistic-abuse{
     display:block;
-    padding: 1.2em 10px;
+    padding: 1.2em 20px;
     
   }
 
@@ -465,14 +473,14 @@ footer .media li{
   .taking-steps{
    display:block;
    background-color: #8EA7E9;
-   padding: 1.2em 10px;
+   padding: 1.2em 20px;
   }
  
   
   
   .reminder{
     display:block;
-    padding: 1.2em 10px;
+    padding: 1.2em 20px;
   }
 
   .twitter{ 
