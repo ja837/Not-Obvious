@@ -44,7 +44,8 @@
 
 .card{
   background-color: white;
-  padding: 30px;
+  padding:30px;
+  
   
 }
 
@@ -79,7 +80,7 @@ button a{
 
   .row {
     display: flex;
-    align-items: center;
+    align-items: stretch;
     flex-wrap: wrap;
     padding-bottom: 1.8em;
     gap:1em;
@@ -89,9 +90,6 @@ button a{
     padding: 0 3em;
   }
 
-  .row-posters-mobile {
-    display:none;
-  }
 
   
   
@@ -111,6 +109,10 @@ button a{
   .column img{ 
     height: 100%;
     object-fit: cover;
+  }
+
+  .poster-col{
+    margin:15px;
   }
 
   
