@@ -209,7 +209,7 @@ button a{
 
 /*hero*/ 
 .hero-image{
-background-image: url(images/hero.png);
+background-image: url(./images/hero.png);
 height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
@@ -261,7 +261,7 @@ padding-bottom: 1.2em;
   /*fault*/
   .fault{
     padding: 50px 70px;
-    background-image: url(/images/background\ 1.png);
+    background-image: url(./images/background\ 1.png);
     background-repeat: no-repeat;
     background-position: center;
   }
@@ -287,7 +287,7 @@ padding-bottom: 1.2em;
   /*narcissistic abuse*/
   .narcissistic-abuse{
     padding: 50px 70px;
-    background-image: url(/images/background\ 4.png);
+    background-image: url(./images/background\ 4.png);
     background-repeat: no-repeat;
     background-position: center right;
   }
@@ -311,7 +311,7 @@ padding-bottom: 1.2em;
 /*reminder*/ 
 .reminder{
   padding: 50px 300px;
-  background-image: url(/images/background\ 3.png);
+  background-image: url(./images/background\ 3.png);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -349,26 +349,26 @@ footer .media li{
   .twitter{ 
     width:80px;
     height:80px;
-    background-image: url(/images/twitter.svg);
+    background-image: url(./images/twitter.svg);
     background-size: 65%;
   }
 
   .twitter:hover{
     width:80px;
     height:80px;
-    background-image: url(/images/twitter\ 2.svg);
+    background-image: url(./images/twitter\ 2.svg);
     background-size: 65%;
   }
 
   .facebook{ 
     width:80px;
     height:80px;
-    background-image: url(/images/facebook.svg);
+    background-image: url(./images/facebook.svg);
     background-size: 57%;
   }
 
   .facebook:hover{
-    background-image:url(/images/facebook\ 2.svg);
+    background-image:url(./images/facebook\ 2.svg);
     width:80px;
     height:80px;
     background-size: 57%;
@@ -377,14 +377,14 @@ footer .media li{
   .instagram{ 
     width:80px;
     height:80px;
-    background-image: url(/images/instagram.svg);
+    background-image: url(./images/instagram.svg);
     background-size: 57%;
   }
 
   .instagram:hover{ 
     width:80px;
     height:80px;
-    background-image: url(/images/instagram\ 2.svg);
+    background-image: url(./images/instagram\ 2.svg);
     background-size: 57%;
   }
 
@@ -392,7 +392,7 @@ footer .media li{
   .youtube{ 
     width:80px;
     height:80px;
-    background-image: url(/images/youtube.svg);
+    background-image: url(./images/youtube.svg);
     background-size: 65%;
     background-position: top 15% left;
   }
@@ -400,7 +400,7 @@ footer .media li{
   .youtube:hover{ 
     width:80px;
     height:80px;
-    background-image: url(/images/youtube\ 2.svg);
+    background-image: url(./images/youtube\ 2.svg);
     background-size: 65%;
     background-position: top 15% left;
   }
@@ -497,7 +497,7 @@ footer .media li{
   .fault-mobile{
     display:block;
     padding: 1.2em 20px;
-    background-image: url(/images/background\ 1.png);
+    background-image: url(./images/background\ 1.png);
     background-repeat: no-repeat;
     background-position: 13% 140%;
     
@@ -564,7 +564,7 @@ footer .media li{
   .reminder{
     display:block;
     padding: 1.2em 20px;
-    background-image: url(/images/background\ 3.png);
+    background-image: url(./images/background\ 3.png);
   background-repeat: no-repeat;
   background-position: 85%;
   }
@@ -572,7 +572,7 @@ footer .media li{
   .twitter{ 
     width:80px;
     height:80px;
-    background-image: url(/images/twitter.svg);
+    background-image: url(./images/twitter.svg);
     background-size: 65%;
   }
 
@@ -580,19 +580,19 @@ footer .media li{
   .facebook{ 
     width:80px;
     height:80px;
-    background-image: url(/images/facebook.svg);
+    background-image: url(./images/facebook.svg);
     background-size: 57%;
   }
   .instagram{ 
     width:80px;
     height:80px;
-    background-image: url(/images/instagram.svg);
+    background-image: url(./images/instagram.svg);
     background-size: 57%;
   }
   .youtube{ 
     width:80px;
     height:80px;
-    background-image: url(/images/youtube.svg);
+    background-image: url(./images/youtube.svg);
     background-size: 65%;
     background-position: top 15% left;
   }
