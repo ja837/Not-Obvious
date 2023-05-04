@@ -261,7 +261,7 @@ padding-bottom: 1.2em;
   /*fault*/
   .fault{
     padding: 50px 70px;
-    background-image: url('images/background\ 1.png');
+    background-image: url(../images/background\ 1.png);
     background-repeat: no-repeat;
     background-position: center;
   }
