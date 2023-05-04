@@ -70,6 +70,10 @@ button{
       color: #FBE886;
       background: #FBE886;
     }
+    button:active{
+      color:#FFF2F2;
+      background: #FFF2F2;
+    }
     
 button a{
   text-decoration: none;
@@ -109,6 +113,7 @@ button a{
   .column img{ 
     height: 100%;
     object-fit: cover;
+    width:100%;
   }
 
   .poster-col{
@@ -271,18 +276,22 @@ padding-bottom: 1.2em;
 
   }
 
+  .narcissist-mobile{
+    display: none;
+  }
+
   .narcissist-types-mobile{
     display:none;
   }
   /*narcissistic abuse*/
   .narcissistic-abuse{
     padding: 50px 70px;
-    background-image: url(/images/bacground\ 2.png);
+    background-image: url(/images/background\ 4.png);
     background-repeat: no-repeat;
     background-position: center right;
   }
 
-  .articles-mobile{
+  .narcissistic-abuse-articles-mobile{
     display:none;
     
   }
@@ -294,9 +303,9 @@ padding-bottom: 1.2em;
     background-color: #8EA7E9;
   }
 
-  .taking-steps-mobile{
-   display:none;
-  }
+ .self-care-mobile{
+  display:none;
+ }
 
 /*reminder*/ 
 .reminder{
@@ -325,20 +334,74 @@ footer .media li{
   }
 
   footer .media li a { 
-    padding: 0 10px;
+    padding: 0;
   }
 
+  .icon {
+    position:relative;
+    display: inline-block;
+    background-repeat: no-repeat;
+   
+  }
+
+
   .twitter{ 
-    width:3%;
+    width:80px;
+    height:80px;
+    background-image: url(/images/twitter.svg);
+    background-size: 65%;
   }
+
+  .twitter:hover{
+    width:80px;
+    height:80px;
+    background-image: url(/images/twitter\ 2.svg);
+    background-size: 65%;
+  }
+
   .facebook{ 
-    width:2.5%;
+    width:80px;
+    height:80px;
+    background-image: url(/images/facebook.svg);
+    background-size: 57%;
   }
+
+  .facebook:hover{
+    background-image:url(/images/facebook\ 2.svg);
+    width:80px;
+    height:80px;
+    background-size: 57%;
+  }
+
   .instagram{ 
-    width:2.5%;
+    width:80px;
+    height:80px;
+    background-image: url(/images/instagram.svg);
+    background-size: 57%;
   }
+
+  .instagram:hover{ 
+    width:80px;
+    height:80px;
+    background-image: url(/images/instagram\ 2.svg);
+    background-size: 57%;
+  }
+
+
   .youtube{ 
-    width:3%;
+    width:80px;
+    height:80px;
+    background-image: url(/images/youtube.svg);
+    background-size: 65%;
+    background-position: top 15% left;
+  }
+
+  .youtube:hover{ 
+    width:80px;
+    height:80px;
+    background-image: url(/images/youtube\ 2.svg);
+    background-size: 65%;
+    background-position: top 15% left;
   }
 
   .copyright{
@@ -384,7 +447,6 @@ footer .media li{
   @media (max-width: 600px) { 
 
     
-      
   
   
     body{ 
@@ -436,6 +498,7 @@ footer .media li{
     padding: 1.2em 20px;
     background-image: url(/images/background\ 1.png);
     background-repeat: no-repeat;
+    background-position: 13% 140%;
     
   }
 
@@ -446,6 +509,15 @@ footer .media li{
       display:block;
       padding: 1.2em 20px;
     }
+
+    .narcissist{
+      display: none;
+    }
+
+    .narcissist-mobile{
+      display: block;
+    }
+
 .narcissist-types{
   display:none;
 }
@@ -464,13 +536,14 @@ footer .media li{
     
   }
 
-  .articles{
+  .narcissistic-abuse-articles{
     display:none;
+    
   }
-
-.articles-mobile{
-  display:block;
-}
+  .narcissistic-abuse-articles-mobile{
+    display:block;
+    
+  }
 
   .taking-steps{
    display:block;
@@ -479,23 +552,48 @@ footer .media li{
   }
  
   
+ .self-care{
+  display:none;
+ }
+ 
+ .self-care-mobile{
+  display:block;
+ }
   
   .reminder{
     display:block;
     padding: 1.2em 20px;
+    background-image: url(/images/background\ 3.png);
+  background-repeat: no-repeat;
+  background-position: 85%;
   }
 
   .twitter{ 
-    width:6%;
+    width:80px;
+    height:80px;
+    background-image: url(/images/twitter.svg);
+    background-size: 65%;
   }
+
+  
   .facebook{ 
-    width:5%;
+    width:80px;
+    height:80px;
+    background-image: url(/images/facebook.svg);
+    background-size: 57%;
   }
   .instagram{ 
-    width:5%;
+    width:80px;
+    height:80px;
+    background-image: url(/images/instagram.svg);
+    background-size: 57%;
   }
   .youtube{ 
-    width:6%;
+    width:80px;
+    height:80px;
+    background-image: url(/images/youtube.svg);
+    background-size: 65%;
+    background-position: top 15% left;
   }
   
   }
